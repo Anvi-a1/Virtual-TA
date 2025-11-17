@@ -44,12 +44,6 @@ cookies.json
 *~
 .DS_Store
 
-# Model Files & Vector Databases
-model/
-*.faiss
-*.pkl
-*.index
-
 # Logs
 *.log
 logs/
