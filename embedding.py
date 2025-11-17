@@ -6,7 +6,7 @@ from typing import List, Dict
 from bs4 import BeautifulSoup
 import markdown as md
 from dotenv import load_dotenv
-import google.generativeai as genai
+import google as genai
 import time
 
 load_dotenv()

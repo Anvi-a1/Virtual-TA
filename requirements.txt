@@ -5,8 +5,9 @@ uvicorn[standard]>=0.24.0
 # Environment & Config
 python-dotenv>=1.0.0
 
-# HTTP Client
+# HTTP Clients
 aiohttp>=3.9.0
+requests>=2.31.0
 
 # Data Processing
 numpy>=1.24.0
@@ -26,8 +27,15 @@ python-multipart>=0.0.6
 # Build Tools
 setuptools>=65.0.0
 
-# Google Gemini API
+# Google Gemini API (choose one based on your needs)
+# Option 1: New SDK (used in app.py)
 google-genai>=0.2.0
+
+# Option 2: Legacy SDK (used in embedding.py) - UNCOMMENT if keeping embedding.py as-is
+# google-generativeai>=0.15.0
 
 # Vector Database
 faiss-cpu>=1.8.0
+
+# Web Automation
+playwright>=1.40.0
