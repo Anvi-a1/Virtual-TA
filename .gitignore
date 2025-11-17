@@ -50,11 +50,6 @@ model/
 *.pkl
 *.index
 
-# JSON Data (Sensitive)
-metadata.json
-discourse_posts.json
-vercel.json
-
 # Logs
 *.log
 logs/
@@ -81,4 +76,3 @@ htmlcov/
 .mypy_cache/
 .dmypy.json
 dmypy.json
-markdown_files/
