@@ -1,12 +1,84 @@
-# Ignore directories
-downloaded_threads/
-markdown_files/
+# Python
 __pycache__/
-venv/
-.venv/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Ignore files
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables & Secrets
 .env
-preprocess.py
-*.pyc
+.env.local
+.env.*.local
+auth.json
+cookies.json
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 .DS_Store
+
+# Model Files & Vector Databases
+model/
+*.faiss
+*.pkl
+*.index
+
+# JSON Data (Sensitive)
+metadata.json
+discourse_posts.json
+vercel.json
+
+# Logs
+*.log
+logs/
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# System Files
+Thumbs.db
+.DS_Store
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+markdown_files/

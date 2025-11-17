@@ -1,12 +1,33 @@
-fastapi
-uvicorn
-python-dotenv
-aiohttp
-numpy
-pydantic
-beautifulsoup4
-html2text
-tqdm
-markdown
-python-multipart
-setuptools
+# Web Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# Environment & Config
+python-dotenv>=1.0.0
+
+# HTTP Client
+aiohttp>=3.9.0
+
+# Data Processing
+numpy>=1.24.0
+pydantic>=2.5.0
+
+# Text Processing
+beautifulsoup4>=4.12.0
+html2text>=2020.1.16
+markdown>=3.5.0
+
+# Progress & Utilities
+tqdm>=4.66.0
+
+# File Upload
+python-multipart>=0.0.6
+
+# Build Tools
+setuptools>=65.0.0
+
+# Google Gemini API
+google-genai>=0.2.0
+
+# Vector Database
+faiss-cpu>=1.8.0
